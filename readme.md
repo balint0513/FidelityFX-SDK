@@ -14,7 +14,7 @@ Keep FSR 3’s existing frame-generation pipeline, but make optical flow, valida
 
 ### Checklist
 
-- [ ] Fork the FSR 3 repository and create a separate experimental branch.
+- [X] Fork the FSR 3 repository and create a separate experimental branch.
 - [ ] Build the unmodified sample and integration.
 - [ ] Confirm frame generation works on the GTX 1660 Ti.
 - [ ] Record performance without frame generation.
