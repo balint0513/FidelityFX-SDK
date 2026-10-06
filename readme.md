@@ -15,10 +15,10 @@ Keep FSR 3’s existing frame-generation pipeline, but make optical flow, valida
 ### Checklist
 
 - [X] Fork the FSR 3 repository and create a separate experimental branch.
-- [ ] Build the unmodified sample and integration.
-- [ ] Confirm frame generation works on the GTX 1660 Ti.
-- [ ] Record performance without frame generation.
-- [ ] Record performance with unmodified FSR 3 frame generation.
+- [X] Build the unmodified sample and integration.
+- [X] Confirm frame generation works on the GTX 1660 Ti.
+- [X] Record performance without frame generation.
+- [X] Record performance with unmodified FSR 3 frame generation.
 - [ ] Capture repeatable scenes:
   - [ ] Static scene
   - [ ] Slow camera movement
@@ -38,10 +38,10 @@ Keep FSR 3’s existing frame-generation pipeline, but make optical flow, valida
 
 | Measurement | Current FSR 3 |
 |---|---:|
-| Real rendered FPS | |
-| Displayed FPS with frame generation | |
-| Frame-generation GPU time | |
-| Optical-flow GPU time | |
+| Real rendered FPS | Avg 70-80 |
+| Displayed FPS with frame generation | Avg 120-130 |
+| Frame-generation GPU time | Avg 14 ms  |
+| Optical-flow GPU time |  |
 | Interpolation GPU time | |
 | Presentation/composition GPU time | |
 | GPU memory used | |
